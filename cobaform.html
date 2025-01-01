@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coba Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        form{
+            width: 600px;
+            padding: 20px;
+        }
+        label{
+            display: block;
+        }
+        form div {
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <form action="" method="post" autocomplete="off">
+        <div>
+            <label for="nama">Masukkan nama :</label>
+            <input type="text" name="nama" id="nama">
+        </div>
+        <div>
+            <label for="Telepon">Masukkan No Telepon :</label>
+            <input type="tel" name="Telepon" id="Telepon">
+        </div>
+
+        <div>
+            <label for="url">Masukkan url :</label>
+            <input type="url" name="url" id="url">
+        </div>
+
+        <div>
+            <label for="number">Masukkan number :</label>
+            <input type="number" name="number" id="number" min="0" max="100">
+        </div>
+
+        <div>
+            <label for="file">Masukkan file :</label>
+            <input type="file" name="file" id="file">
+        </div>
+        
+        <div>
+            <label for="slider">Masukkan slider :</label>
+            <input type="range" name="slider" id="slider">
+        </div>
+
+        <div>
+            <label for="tanggal">Masukkan tanggal :</label>
+            <input type="date" name="tanggal" id="tanggal">
+        </div>
+
+        <div>
+            <label for="color">Masukkan color :</label>
+            <input type="color" name="color" id="color">
+        </div>
+
+        <br><br>
+        
+        <div>
+            <button type="submit" > submit </button>
+        </div>
+
+    </form>
+</body>
+</html>
